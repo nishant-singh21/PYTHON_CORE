@@ -19,6 +19,19 @@
 
 
 
-# String length
-str="Hello World"
-print(len(str)) # 11
+# # String length
+# str="Hello World"
+# print(len(str)) # 11
+
+# # indexing of string 
+
+# print(str[0]) # H
+
+# print(str[6]) # W
+# print(str[10]) # d
+
+
+# slicing of string
+# break the string into the two parts
+print(str[0:5]) # Hello
+print(str[6:11]) # World
