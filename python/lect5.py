@@ -35,3 +35,9 @@ print(str[10]) # d
 # break the string into the two parts
 print(str[0:5]) # Hello
 print(str[6:11]) # World
+
+print(str[0:11:2]) # HloWrd
+print(str[::2]) # HloWrd
+
+
+
