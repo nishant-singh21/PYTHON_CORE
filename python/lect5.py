@@ -41,3 +41,4 @@ print(str[::2]) # HloWrd
 
 
 
+ 
