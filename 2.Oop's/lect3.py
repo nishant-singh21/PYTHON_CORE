@@ -38,12 +38,12 @@ car1.start_engine()
 # Encapsulation:
 # wrapping the data and methods that operate on the data into a single unit
 
-from ast import Name
+
 
 
 class BankAccount:
-    def __init__(self, account_number, balance):
-        self.name = Name # public attribute
+    def __init__(self, name, balance):
+        self.name = name  # public attribute
         self.__balance = balance  # private attribute
 
     def deposit(self, amount):
@@ -55,7 +55,8 @@ class BankAccount:
 acc = BankAccount("Mohit", 1000)
 acc.deposit(500)
 print(acc.getBalance())  # Output: 1500
-# print(acc.__balance)  # This will raise an AttributeError because __balance is private
+# print(acc.__balance)  # This will raise an AttributeError 
+# because __balance is private
 
       
         

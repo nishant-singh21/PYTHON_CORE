@@ -23,7 +23,8 @@ print(s1.car_company)  # Output: Toyota
 # methods in python class
 # methods are the functions that belong to the obejcts
 
-# dyanmic method: methods that can be called on an object of a class and can access
+# dyanmic method: methods that can be called on an object of a class and 
+# can access
 #  the instance variables of the object.
 
 class Student: 
